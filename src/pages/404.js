@@ -1,18 +1,20 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Burrito from "../components/burrito"
 import SEO from "../components/seo"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Burrito location={location} title={siteTitle}>
       <SEO title="404: Not Found" />
-      <h1>404: Not Found</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </Layout>
+      <div className="not-found-page">
+        <h1>404: Not Found</h1>
+        <p>I'm sorry if I removed an existing page. I have no idea what I'm doing</p>
+       </div>
+    </Burrito>
   )
 }
 
