@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 
 import Burrito from "../components/burrito"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Tags from "../components/tags"
 
 const TagTemplate = ({ data, location, pageContext }) => {
@@ -11,9 +11,11 @@ const TagTemplate = ({ data, location, pageContext }) => {
   const { tag } = pageContext
   return (
     <Burrito location={location} title={siteTitle}>
-      <SEO title={tag} description={data.allMarkdownRemark.excerpt} />
+      <Seo title={tag} description={data.allMarkdownRemark.excerpt} />
       <div className="tag-exercises">
-        <div className="tag"><p>{tag}</p></div>
+        <div className="tag">
+          <p>{tag}</p>
+        </div>
         <div className="tag-description">
           <p>{descriptions[tag]}</p>
         </div>
@@ -71,7 +73,7 @@ export const pageQuery = graphql`
 `
 
 const descriptions = {
-  pull: "Pull from your visual library: practice drawing from memory and imagination",
+  pull:
+    "Pull from your visual library: practice drawing from memory and imagination",
   push: "Push into your visual library: practice drawing from reference",
-
-};
+}

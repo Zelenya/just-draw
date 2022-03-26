@@ -13,6 +13,7 @@ Pick any old or new master. Learn from them
 ### Options
 
 #### Value study
+
 - 2-value study (Notan)
 - 3-value master study
 - 4-value master study: Start with Notan masses, then split each mass into two more values
@@ -24,6 +25,7 @@ Pick any old or new master. Learn from them
 #### Whatever you want study
 
 ### Optional challenges
+
 - Time limit: 15 minutes
 
 ![Master Study](https://live.staticflickr.com/65535/51158576437_f22c668402_k.jpg)

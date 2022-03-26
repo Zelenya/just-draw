@@ -5,6 +5,7 @@ tags:
 ---
 
 ### Options
+
 - animals
 - famous characters (e.g. Sonic, Sponge Bob)
 - figure
@@ -15,6 +16,7 @@ tags:
 - vehicles
 
 ### Optional challenges
+
 - Time limit: 10 minutes
 
 ![Draw from memory](https://live.staticflickr.com/65535/51159237411_133e9c2468_k.jpg)

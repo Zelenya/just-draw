@@ -1,8 +1,8 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Burrito from "../components/burrito"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Tags from "../components/tags"
 
 const ExerciseTemplate = ({ data, location }) => {
@@ -11,7 +11,7 @@ const ExerciseTemplate = ({ data, location }) => {
 
   return (
     <Burrito location={location} title={siteTitle}>
-      <SEO  title={post.frontmatter.title} description={post.excerpt}/>
+      <Seo title={post.frontmatter.title} description={post.excerpt} />
       <div className="exercise">
         <header>
           <h2 itemProp="headline">{post.frontmatter.title}</h2>

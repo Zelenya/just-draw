@@ -6,9 +6,7 @@ const Tags = ({ tags, tagSlugs }) => (
     {tagSlugs &&
       tagSlugs.map((slug, i) => (
         <div className="tag" key={tags[i]}>
-          <Link to={slug} >
-            {tags[i]}
-          </Link>
+          <Link to={slug}>{tags[i]}</Link>
         </div>
       ))}
   </div>
