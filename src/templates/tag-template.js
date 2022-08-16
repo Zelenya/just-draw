@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, withPrefix } from "gatsby"
 
 import Burrito from "../components/burrito"
 import Seo from "../components/seo"
@@ -25,7 +25,7 @@ const TagTemplate = ({ data, location, pageContext }) => {
             return (
               <li key={node.fields.slug} className="tag-exercise">
                 <h2>
-                  <Link to={node.fields.slug} itemProp="url">
+                  <Link to={withPrefix(node.fields.slug)} itemProp="url">
                     <span itemProp="headline">{node.frontmatter.title}</span>
                   </Link>
                 </h2>

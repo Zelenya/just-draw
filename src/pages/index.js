@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, withPrefix } from "gatsby"
 
 import Burrito from "../components/burrito"
 import Seo from "../components/seo"
@@ -32,12 +32,12 @@ const BlogIndex = ({ data, location }) => {
           </select>
         </div>
         <div className="buttons">
-          <Link className="btn" to={random} itemProp="url">
+          <Link className="btn" to={withPrefix(random)} itemProp="url">
             <span>I'm feeling lucky</span>
           </Link>
           <Link
             className="btn"
-            to={selected}
+            to={withPrefix(selected)}
             disabled={!selected}
             itemProp="url"
           >

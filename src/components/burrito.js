@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 
 const Burrito = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -9,12 +9,12 @@ const Burrito = ({ location, title, children }) => {
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
-        <Link to="/">{title}</Link>
+        <Link to={withPrefix("/")}>{title}</Link>
       </h1>
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
+      <Link className="header-link-home" to={withPrefix("/")}>
         {title}
       </Link>
     )

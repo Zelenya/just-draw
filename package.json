@@ -36,7 +36,7 @@
     "build": "gatsby build",
     "develop": "gatsby build --prefix-paths",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "serve": "gatsby gatsby serve --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
