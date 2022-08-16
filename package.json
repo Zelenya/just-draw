@@ -28,15 +28,18 @@
     "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "2.6.1"
   },
   "license": "0BSD",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby build --prefix-paths",
+    "build-old": "gatsby build",
+    "build": "gatsby build --prefix-paths",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "serve": "gatsby gatsby serve --prefix-paths",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
