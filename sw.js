@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8c8089e543561cf8d95c.js"
+    "url": "webpack-runtime-0d77b5a1b76481f01f30.js"
   },
   {
     "url": "framework-925c7aca4ec96cd6392b.js"
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "styles.2799ce3f8eac5484e797.css"
   },
   {
-    "url": "app-c37edb6d0c085de076b7.js"
+    "url": "app-8442af0990d8483f49bd.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "9287a9b8c9e1da4b57f5b51312409d70"
+    "revision": "e94821b478f26913ae95c698efda708e"
   },
   {
     "url": "polyfill-65e5daadf1a9d76174db.js"
@@ -153,7 +153,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/just-draw/app-c37edb6d0c085de076b7.js`))) {
+  if (!resources || !(await caches.match(`/just-draw/app-8442af0990d8483f49bd.js`))) {
     return await fetch(event.request)
   }
 
