@@ -1,13 +1,37 @@
-## Develop
+## Development
 
+```sh
+npm install
+npm run start
 ```
-gatsby develop
+
+The dev server runs at [http://localhost:1234](http://localhost:1234). It watches app code, `content/site.json`, and Tailwind CSS.
+
+Useful commands:
+
+```sh
+npm run bundle
+npm test
+npm run format
 ```
 
-Your site is now running at `http://localhost:8000`!
+## Deployment
 
-_Note: You'll also see a second link: _`http://localhost:8000/___graphql`\_.
+`npm run deploy` builds `/dist` and publishes it to the `gh-pages` branch.
 
-## Deploy
+GitHub Pages should serve the `gh-pages` branch from the repository root. The production build assumes the site is hosted at `/just-draw`.
 
-`gatsby build --prefix-paths`
+## Content
+
+Exercises live in `content/site.json`.
+
+Each exercise has:
+
+- `title`
+- `slugSegment`
+- `tags`
+- `excerpt`
+- `heroImage`
+- `body`
+
+`body` is an array of simple content blocks. Supported block kinds are `paragraph`, `heading`, `quote`, `list`, `links`, and `images`.

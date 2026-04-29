@@ -1,0 +1,209 @@
+{
+  "site": {
+    "title": "Just draw",
+    "description": "Short drawing prompts for when you want to stop planning and start sketching."
+  },
+  "tagDescriptions": [
+    {
+      "name": "pull",
+      "description": "Pull from your visual library: practice drawing from memory and imagination"
+    },
+    {
+      "name": "push",
+      "description": "Push into your visual library: practice drawing from reference"
+    }
+  ],
+  "exercises": [
+    {
+      "title": "Automatic Drawing",
+      "slugSegment": "reveries",
+      "tags": ["composition", "pull", "shapes"],
+      "excerpt": "Don't think, just draw shapes. There should be no subject. Do some cloud watching, find the subject, and finish the picture.",
+      "heroImage": "https://live.staticflickr.com/65535/51962369675_52325cd220_c.jpg",
+      "body": [
+        { "kind": "quote", "level": 0, "text": "Reveries / Automatic Drawing / Paintsploration", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Main part", "items": [], "links": [], "images": [] },
+        { "kind": "paragraph", "level": 0, "text": "Don't think, just draw shapes. There should be no subject!", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Optional part", "items": [], "links": [], "images": [] },
+        { "kind": "paragraph", "level": 0, "text": "Do some cloud watching, find or explore the subject, then finish or polish the picture.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Resources", "items": [], "links": [], "images": [] },
+        { "kind": "links", "level": 0, "text": "", "items": [], "links": [
+          { "label": "The Automatic Drawing Technique", "href": "https://www.youtube.com/watch?v=MJYGFwGhHnA" },
+          { "label": "Paintsploration by Sinix Design", "href": "https://www.youtube.com/watch?v=EX_mAiK5z5g" }
+        ], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Automatic Drawing", "src": "https://live.staticflickr.com/65535/51962369675_52325cd220_c.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Draw from memory",
+      "slugSegment": "draw-from-memory",
+      "tags": ["pull"],
+      "excerpt": "Options include animals, characters, figures, food, nature, everyday objects, portraits, and vehicles.",
+      "heroImage": "https://live.staticflickr.com/65535/51159237411_133e9c2468_k.jpg",
+      "body": [
+        { "kind": "heading", "level": 3, "text": "Options", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "animals", "label": "", "href": "" }], [{ "kind": "text", "text": "famous characters (e.g. Sonic, Sponge Bob)", "label": "", "href": "" }], [{ "kind": "text", "text": "figure", "label": "", "href": "" }], [{ "kind": "text", "text": "food", "label": "", "href": "" }], [{ "kind": "text", "text": "nature (e.g. flowers, trees)", "label": "", "href": "" }], [{ "kind": "text", "text": "everyday objects (e.g. photo camera, shoes)", "label": "", "href": "" }], [{ "kind": "text", "text": "portraits", "label": "", "href": "" }], [{ "kind": "text", "text": "vehicles", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Optional challenges", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "Time limit: 10 minutes", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Draw from memory", "src": "https://live.staticflickr.com/65535/51159237411_133e9c2468_k.jpg" },
+          { "alt": "Draw from memory", "src": "https://live.staticflickr.com/65535/51160345985_557d4fc270_k.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Draw from reference",
+      "slugSegment": "draw-from-reference",
+      "tags": ["push"],
+      "excerpt": "Pick a subject from reference and draw it. Options include animals, characters, figures, food, nature, objects, portraits, and vehicles.",
+      "heroImage": "https://live.staticflickr.com/65535/51160023964_46701f852c_k.jpg",
+      "body": [
+        { "kind": "heading", "level": 3, "text": "Options", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "animals", "label": "", "href": "" }], [{ "kind": "text", "text": "famous characters (e.g. Sonic, Sponge Bob)", "label": "", "href": "" }], [{ "kind": "text", "text": "figure", "label": "", "href": "" }], [{ "kind": "text", "text": "food", "label": "", "href": "" }], [{ "kind": "text", "text": "nature (e.g. flowers, trees)", "label": "", "href": "" }], [{ "kind": "text", "text": "everyday objects (e.g. photo camera, shoes)", "label": "", "href": "" }], [{ "kind": "text", "text": "portraits (", "label": "", "href": "" }, { "kind": "link", "text": "", "label": "earthworld", "href": "https://www.instagram.com/earthsworld" }, { "kind": "text", "text": ")", "label": "", "href": "" }], [{ "kind": "text", "text": "vehicles", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Optional challenges", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "Time limit: 10 minutes", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Draw from reference", "src": "https://live.staticflickr.com/65535/51160023964_46701f852c_k.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Figure",
+      "slugSegment": "figure",
+      "tags": ["figure", "gesture", "pull", "push"],
+      "excerpt": "Practice figures by drawing another angle, the next moment, exaggerated poses, or anatomy studies.",
+      "heroImage": "https://live.staticflickr.com/65535/51158576407_063271ced7_k.jpg",
+      "body": [
+        { "kind": "heading", "level": 3, "text": "Options", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 4, "text": "Another angle", "items": [], "links": [], "images": [] },
+        { "kind": "paragraph", "level": 0, "text": "Grab a reference of a figure, draw it from another angle.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 4, "text": "Next moment", "items": [], "links": [], "images": [] },
+        { "kind": "paragraph", "level": 0, "text": "Grab a reference of a moving figure, draw the next movement.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 4, "text": "Exaggerate", "items": [], "links": [], "images": [] },
+        { "kind": "paragraph", "level": 0, "text": "Draw a figure with or without reference, exaggerate the pose, then exaggerate the exaggeration.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 4, "text": "Anatomy study", "items": [], "links": [], "images": [] },
+        { "kind": "paragraph", "level": 0, "text": "Pick a body part and study it.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Resources", "items": [], "links": [], "images": [] },
+        { "kind": "links", "level": 0, "text": "", "items": [], "links": [
+          { "label": "The Natural Way to Draw by Kimon Nicolaides", "href": "https://www.goodreads.com/book/show/3061.The_Natural_Way_to_Draw" }
+        ], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Another angle", "src": "https://live.staticflickr.com/65535/51158576407_063271ced7_k.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Figure in Shape",
+      "slugSegment": "figure-in-shape",
+      "tags": ["figure", "gesture", "pull"],
+      "excerpt": "Draw blobs and fill them with figures while keeping proportions realistic.",
+      "heroImage": "https://live.staticflickr.com/65535/51160345940_0009d6158d_k.jpg",
+      "body": [
+        { "kind": "paragraph", "level": 0, "text": "Draw a bunch of blobs, fill them with figures. Try to keep the proportions realistic. You can use perspective to cheat a bit.", "items": [], "links": [], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Figure in Shape", "src": "https://live.staticflickr.com/65535/51160345940_0009d6158d_k.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Fill in the boxes",
+      "slugSegment": "fill-the-boxes",
+      "tags": ["figure", "perspective", "pull"],
+      "excerpt": "Draw a bunch of boxes, then fill them in with the same or different subjects.",
+      "heroImage": "https://live.staticflickr.com/65535/51961867728_e6d5a9f64b_c.jpg",
+      "body": [
+        { "kind": "paragraph", "level": 0, "text": "Draw a bunch of boxes, then fill them in with the same or different subjects.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Resources", "items": [], "links": [], "images": [] },
+        { "kind": "links", "level": 0, "text": "", "items": [], "links": [
+          { "label": "#kimJunggi #SuperAni #Stream", "href": "https://youtu.be/yQb9lF1vU5E?t=7260" }
+        ], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Fill in the boxes", "src": "https://live.staticflickr.com/65535/51961867728_e6d5a9f64b_c.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Map Crunch",
+      "slugSegment": "mapcrunch",
+      "tags": ["color", "composition", "environment", "shapes"],
+      "excerpt": "Go to a random location and do plein air painting from home.",
+      "heroImage": "https://live.staticflickr.com/65535/51962369660_ff6f609998_k.jpg",
+      "body": [
+        { "kind": "paragraph", "level": 0, "text": "Let's explore the world. Go to a random location and do some plein air painting from the comfort of your home.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Optional challenges", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "Time limit: 5 minutes", "label": "", "href": "" }], [{ "kind": "text", "text": "Reinterpret the picture based on a mood or genre (e.g. make it scary)", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Resources", "items": [], "links": [], "images": [] },
+        { "kind": "links", "level": 0, "text": "", "items": [], "links": [
+          { "label": "MapCrunch", "href": "https://www.mapcrunch.com/" },
+          { "label": "GeoGuessr", "href": "https://www.geoguessr.com/" }
+        ], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Map Crunch", "src": "https://live.staticflickr.com/65535/51962369660_ff6f609998_k.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Master Study",
+      "slugSegment": "master-studies",
+      "tags": ["color", "composition", "environment", "push", "shapes"],
+      "excerpt": "Pick an old or new master and learn from them through value, color, or focused studies.",
+      "heroImage": "https://live.staticflickr.com/65535/51158576437_f22c668402_k.jpg",
+      "body": [
+        { "kind": "paragraph", "level": 0, "text": "Pick any old or new master. Learn from them.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Options", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 4, "text": "Value study", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "2-value study (Notan)", "label": "", "href": "" }], [{ "kind": "text", "text": "3-value master study", "label": "", "href": "" }], [{ "kind": "text", "text": "4-value master study: start with Notan masses, then split each mass into two more values", "label": "", "href": "" }], [{ "kind": "text", "text": "4-value master study: start with Notan masses, split one mass into three values", "label": "", "href": "" }], [{ "kind": "text", "text": "5-value master study: let one odd value stand out for contrast", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "heading", "level": 4, "text": "Color study", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 4, "text": "Whatever you want study", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Optional challenges", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "Time limit: 15 minutes", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Master Study", "src": "https://live.staticflickr.com/65535/51158576437_f22c668402_k.jpg" },
+          { "alt": "Master Study", "src": "https://live.staticflickr.com/65535/51160345885_5f41f7e394_k.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Material studies",
+      "slugSegment": "materials",
+      "tags": ["push", "shapes"],
+      "excerpt": "Pick a material and a subject, then draw the subject made of that material.",
+      "heroImage": "https://live.staticflickr.com/65535/52288381447_8d4b06a6ce_k.jpg",
+      "body": [
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "Pick a random material (e.g. wood, copper, jello, ramen soup)", "label": "", "href": "" }], [{ "kind": "text", "text": "Pick a random subject (could be a simple object or an animal)", "label": "", "href": "" }], [{ "kind": "text", "text": "Draw this subject made of that material", "label": "", "href": "" }]], "links": [], "images": [] },
+        { "kind": "images", "level": 0, "text": "", "items": [], "links": [], "images": [
+          { "alt": "Material studies", "src": "https://live.staticflickr.com/65535/52288381447_8d4b06a6ce_k.jpg" }
+        ] }
+      ]
+    },
+    {
+      "title": "Movie Shot Studies",
+      "slugSegment": "movies",
+      "tags": ["color", "composition", "push"],
+      "excerpt": "Find movie shots and learn from them.",
+      "heroImage": null,
+      "body": [
+        { "kind": "paragraph", "level": 0, "text": "Find some movie shots. Learn from them.", "items": [], "links": [], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Resources", "items": [], "links": [], "images": [] },
+        { "kind": "links", "level": 0, "text": "", "items": [], "links": [
+          { "label": "filmgrab", "href": "https://film-grab.com/" },
+          { "label": "shotdeck", "href": "https://shotdeck.com/" }
+        ], "images": [] },
+        { "kind": "heading", "level": 3, "text": "Optional challenges", "items": [], "links": [], "images": [] },
+        { "kind": "list", "level": 0, "text": "", "items": [[{ "kind": "text", "text": "Time limit: 15 minutes", "label": "", "href": "" }]], "links": [], "images": [] }
+      ]
+    },
+    {
+      "title": "Room",
+      "slugSegment": "room",
+      "tags": ["environment", "perspective", "pull"],
+      "excerpt": "Draw a room or space you know from memory.",
+      "heroImage": null,
+      "body": [
+        { "kind": "paragraph", "level": 0, "text": "Draw a room (or a space) you are familiar with from memory.", "items": [], "links": [], "images": [] }
+      ]
+    }
+  ]
+}

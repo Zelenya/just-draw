@@ -1,0 +1,26 @@
+package:
+  name: just-draw
+  dependencies:
+    - arrays
+    - effect
+    - integers
+    - maybe
+    - newtype
+    - prelude
+    - random
+    - react-basic
+    - react-basic-dom
+    - react-basic-dom-beta
+    - react-basic-hooks
+    - routing-duplex
+    - strings
+    - web-dom
+    - web-html
+    - yoga-json
+workspace:
+  extraPackages:
+    react-basic-dom-beta:
+      git: https://github.com/rowtype-yoga/purescript-react-basic-dom-beta.git
+      ref: 40719fffb5b8b0578be66f67969b0099f5e08c8c
+  packageSet:
+    registry: 51.1.0
