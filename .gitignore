@@ -58,7 +58,12 @@ typings/
 
 # gatsby files
 .cache/
-public
+
+# PureScript / build files
+.spago/
+dist/
+output/
+.psc-ide-port
 
 # Mac files
 .DS_Store
