@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #fffdf7;
+  --paper-deep: #fff4e6;
+  --ink: #1d1b16;
+  --muted: #6b6257;
+  --accent: #ea580c;
+  --accent-soft: rgba(234, 88, 12, 0.12);
+  --teal-soft: rgba(13, 148, 136, 0.12);
+  --line: rgba(120, 53, 15, 0.12);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-ink: var(--ink);
+  --color-muted-ink: var(--muted);
+  --color-accent-ink: var(--accent);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    min-height: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+      radial-gradient(circle at top, rgba(255, 229, 204, 0.92), rgba(255, 253, 247, 0) 48%),
+      linear-gradient(180deg, #fff8ef 0%, #fffdf7 38%, #fffaf3 100%);
+    color: var(--ink);
+    font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  ::selection {
+    background: rgba(251, 146, 60, 0.24);
+  }
+}
+
+.markdown {
+  color: var(--ink);
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.markdown > :first-child {
+  margin-top: 0;
+}
+
+.markdown :where(h1, h2, h3, h4, h5, h6) {
+  margin-top: 2.5rem;
+  margin-bottom: 0.9rem;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  line-height: 1.15;
+  color: #1c1917;
+}
+
+.markdown :where(h2) {
+  font-size: 2rem;
+}
+
+.markdown :where(h3) {
+  font-size: 1.45rem;
+}
+
+.markdown :where(p, ul, ol, blockquote) {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+.markdown :where(ul, ol) {
+  padding-left: 1.35rem;
+}
+
+.markdown :where(li) {
+  margin-bottom: 0.55rem;
+}
+
+.markdown :where(a) {
+  color: #c2410c;
+  text-decoration: underline;
+  text-decoration-color: rgba(194, 65, 12, 0.28);
+  text-underline-offset: 0.18em;
+}
+
+.markdown :where(a:hover) {
+  color: #9a3412;
+}
+
+.markdown :where(blockquote) {
+  border-left: 4px solid rgba(13, 148, 136, 0.45);
+  margin-left: 0;
+  padding: 0.25rem 0 0.25rem 1.15rem;
+  color: #57534e;
+  font-style: italic;
+  background: linear-gradient(90deg, rgba(204, 251, 241, 0.55), rgba(204, 251, 241, 0));
+}
+
+.markdown :where(img) {
+  width: 100%;
+  margin: 1.75rem 0;
+  border-radius: 1.5rem;
+  border: 1px solid var(--line);
+  box-shadow: 0 20px 50px rgba(120, 53, 15, 0.12);
+  object-fit: cover;
+}
+
+.markdown :where(hr) {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 2rem 0;
+}
+
+.markdown :where(code) {
+  border-radius: 0.5rem;
+  background: rgba(28, 25, 23, 0.06);
+  padding: 0.12rem 0.38rem;
+  font-size: 0.92em;
+}
+
+.markdown :where(pre) {
+  overflow-x: auto;
+  border-radius: 1.25rem;
+  background: #1c1917;
+  padding: 1rem 1.15rem;
+  color: #fef7ed;
+}
